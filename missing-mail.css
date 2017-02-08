@@ -1,0 +1,487 @@
+
+.missing-info-required-field{
+ 
+  font-size:12px;
+  color:#595959;
+   font-family: "HelveticaNeueW02-55Roma", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.missing-mail-form-wrapper{
+	 margin-left:8%;
+}
+
+.missing-mail-input-container{
+	
+	display:inline-block; 
+    margin-top:30px;
+	width:48%;
+}
+
+.tracking-number,.missing-mname,.missing-aptnum,.missing-lname{
+    
+     margin-left: 3%;
+}
+
+.missing-state{
+	  width:25%;
+	  margin-left: 3%;
+}
+.missing-zipcode{
+	
+	  width: 17.5%;
+	  margin-left: 5%;
+	
+}
+
+.missing-mail-input{
+	  width:100%;
+      padding: 14px 14px 14px 20px;
+      border:1px solid #333366;
+      font-size:12px;
+      border-radius:3px;
+      size:44px;
+      font-family: "HelveticaNeueW02-65RMedi", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin-top:10px;
+	  color: #000000;
+    font-size: 13px;
+}
+
+
+.mailing-date-input{
+	  background: transparent url(usps_calendar_icon.png) no-repeat;
+	  background-position: 95% 6px;
+      background-size: 29px;
+	 
+}
+
+.missing-mail-select{
+	padding-left: 20px;
+    width: 100%;
+    height: 44px;
+    border: 1px solid #333366;
+    font-family: "HelveticaNeueW02-55Roma", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 3px;
+    color: #333366;
+    
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent url("blue-caret-down .svg") no-repeat;
+    background-position: 95% 14px;
+	background-size:5%;
+	background-color: #ffffff;
+	margin-top:10px;
+    font-size: 13px;
+}
+
+.lable-for-input-info{
+    
+	 font-family: "HelveticaNeueW02-75Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size:14px;
+     line-height:16px;
+     display:block;
+	 width:100%;
+	 color: #595959;
+
+}
+
+
+.missing-mail-step-titile h1{
+	 color:#333366;
+}
+
+a.button--white {
+	font-family: "HelveticaNeueW02-75Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    box-sizing: border-box;
+    color: #333366;
+    background: #ffffff;
+    min-width: 170px;
+    text-align: center;
+    border: 2px #333366 solid;
+    border-radius: 3px;
+    height: 44px;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: 17px;
+}
+
+a.button--primary {
+    font-family: "HelveticaNeueW02-75Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    box-sizing: border-box;
+    color: #ffffff;
+    background: #333366;
+    min-width: 170px;
+    text-align: center;
+    border: 2px #333366 solid; 
+    border-radius: 3px;
+    height: 44px;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: 17px;
+}
+
+.missing-country,.missing-copname{
+	display:block;
+	
+}
+
+.missing-fname{
+	
+	width:43%;
+	
+}
+.Mname-delivery{
+
+    width: 3%;
+    margin-left: 1.3%;
+
+}
+
+.addtionalserv{
+	
+	margin-left:3%;
+}
+
+a.button--white {
+	font-family: "HelveticaNeueW02-75Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    box-sizing: border-box;
+    color: #333366;
+    background: #ffffff;
+    min-width: 170px;
+    text-align: center;
+    border: 2px #333366 solid;
+    border-radius: 3px;
+    height: 44px;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: 17px;
+	margin-top:40px;
+}
+
+a.button--primary.button--white:hover {
+    background: #f7f7f7;
+    color: #333366;
+	border: 2px solid #333366;
+}
+.missing-privacy-act-stmt{
+	margin-top:20px;
+	 font-family: "HelveticaNeueW02-55Roma", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	 width:100%;
+	 font-size:12px;
+	 color:#595959;
+}
+.missing-privacy-act-stmt span{
+	padding-top:20px;
+	color:#333366;
+	 font-family: "HelveticaNeueW02-75Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.missing-mail-section-wrapper{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+.item-category{
+	
+	margin-left:2%;
+}
+ .item-type-input{
+	 
+	   background: transparent url("search.svg") no-repeat;
+	   background-position: 95% 6px;
+       background-size: 29px;
+ }
+ 
+ .missing-tracking-icon {
+	
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+    
+     
+}
+
+.missing-info-icon {
+	
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+    display: none;
+    
+     
+}
+
+.missing-mailing-addItem-btnholder a.button--white{
+   width:20%;
+   margin-left:0px;
+}
+.missing-mailing-info-btnholder{
+	display:none;
+}
+.missing-mailing-info-btnholder .button--primary,.button--white{
+	margin-top:20px;
+	margin-bottom:20px;
+	width:50%;
+	margin-left:20%;
+    font-family: "HelveticaNeueW02-75Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	border-radius: 6px;
+	font-weight: bold;
+}
+.
+
+ 
+  
+
+.missing-mail-header {
+    margin-top: 40px;
+}
+
+.missing-mail-footer-mobile {
+	margin-top: 70px;
+	text-align: center;
+	margin-bottom: 70px;
+	display:none;
+}
+
+.missing-mail-footer-header {
+    text-align: center;
+    font-size: 24px;
+    color: #333366;
+    font-family: "HelveticaNeueW02-75Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.missing-mail-footer-byline {
+	padding-top: 12px;
+	text-align: center;
+    font-size: 16px;
+    color: #595959;
+    font-family: "HelveticaNeueW02-65Medi","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.missing-mail-footer-mobile .button--primary {
+	
+	margin-top: 25px;
+    width: 50%;
+    border-radius: 6px;
+    margin-left: -10%;
+	font-weight: bold;
+
+}
+
+
+.missiprivacy-act-caret-holder{
+	
+	background: transparent url("blue-caret-down .svg") no-repeat;
+    height: 20px;
+	margin-left:40%;
+	
+}
+
+
+@media screen and (max-width: 959px) {
+	
+	
+	
+
+	.addtionalserv,.item-category{
+		margin-left:0%;
+	}
+  .missing-lname{
+	display: block;
+    width:90%;
+	margin-left:0%;
+	  
+   }
+   
+   .missing-mailing-addItem-btnholder a.button--white {
+    width: 30%;
+    padding-left: 10px;
+    
+}
+.mailing-date,.service-used{
+    display: block;
+    width:90%;
+   }
+
+.tracking-number {
+    display: block;
+	margin-left: 0%;
+	width:90%;
+    
+   }
+
+.missing-fname {
+    width: 83.5%;
+  }
+
+.missing-mname{
+	width:46%;
+}
+.missing-copname,.missing-street,.missing-city,.missing-country{
+	width:90%;
+}
+.missing-aptnum{
+	margin-left: 0%;
+	width:90%;
+	
+ }
+
+.missing-state{
+	
+	width:60%;
+	margin-left:0px;
+}
+
+.missing-zipcode{
+	width:24%;
+	
+}
+
+
+    
+    .complete{
+    display:none;
+}
+
+.more{
+    background:lightblue;
+    color:navy;
+    font-size:13px;
+    padding:3px;
+    cursor:pointer;
+}
+.item-type,.item-category{
+	width:95%;
+	display:block;
+	
+}
+}
+
+@media screen and (max-width: 599px) {
+    
+    .missing-info-icon{
+        display: block;
+        
+        
+    }
+    
+    .missing-tracking-icon{
+      display: none;  
+        
+    }
+    
+	.missing-mailing-addItem-btnholder a.button--white{
+       width:50%;
+       margin-left:20%;
+    }
+	.missing-mailing-info-btnholder{
+	 display:block;
+    }
+	
+	.missing-mail-footer-mobile{
+		
+		display:block;
+	}
+	
+	
+	.addtionalserv{
+		
+		margin-left:0%;
+	}
+	
+	.mailing-date{
+		
+	   display:block;
+		
+	}
+	
+	.missing-lname{
+		 width:90%;
+		 margin-left: 0%;
+	}
+	.missing-mname{
+	
+	   width:95%;
+	   display:block;
+   }
+	.missing-mname{
+		
+	  display:inline-block;
+		
+	}
+	
+	
+    .missing-mail-form-wrapper {
+      margin-left: 0%;
+	
+     }
+    .missing-mname,.missing-aptnum,.missing-street,.missing-city,.mailing-date,.service-used{
+	
+	  display:block;
+	   width:90%;
+     }
+
+ 
+
+    .tracking-number {
+    display: block;
+	margin-left: 0%;
+	width:90%;
+    
+    }
+
+   .missing-mname,.missing-aptnum{
+	margin-left:0%;
+	width:90%;
+    }
+   .missing-street,.missing-copname,.missing-city,.missing-country{
+	width:90%;
+   }
+   .missing-fname{
+	width:80.5%;
+	}
+  .delivery-address{
+	display: block
+	}
+   .missing-state {
+    width: 54%;
+    margin-left: 0%;
+   }
+  .missing-zipcode {
+    width: 30%;
+   }
+
+
+
+
+
+
+.item-type,.item-category{
+	width:95%;
+	display:block;
+	margin-left: 0%;
+	
+}
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1170px) {
+.cartridge-viewport{
+
+    max-width:1170px;
+	margin:auto;
+}
+}
