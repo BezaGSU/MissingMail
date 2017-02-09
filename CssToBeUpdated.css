@@ -1,26 +1,24 @@
-.missing-fname {
-    width: 77.8%;
+/"goes in media query(0 to 599px)"/
+.missing-mailing-info-btnholder{
+    display:block;
+    margin-left:50px;
+    margin-top:20px;
+    width:60%;
+
+}
+
+
+.missing-mailing-info-btnholder a.button--primary{
+     display:block;
+     margin-top:20px;
+       
 }
 
 
-.missing-state {
-    width: 51.7%;
-    margin-left: 0%;
-}
-.item-type{
-    width: 98%;
 
-}
-.item-category{
+.missing-mailing-addItem-btnholder a.button--white{
+       width:60%;
+       margin-left:50px;
 
-  width: 89.6%;
-  margin-left:0%;
-}
-
-/*Delete this*/
-.item-type, .item-category {
-    width: 98%;
-    display: block;
-    margin-left: 0%;
 }
 
