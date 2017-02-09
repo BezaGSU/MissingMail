@@ -1,24 +1,38 @@
 /"goes in media query(0 to 599px)"/
-.missing-mailing-info-btnholder{
-    display:block;
-    margin-left:50px;
-    margin-top:20px;
-    width:60%;
 
+
+
+/*Pls remove .missing-country class from this css*/
+
+.missing-street, .missing-copname, .missing-city, .missing-country {
+    width: 90%;
 }
 
 
-.missing-mailing-info-btnholder a.button--primary{
-     display:block;
-     margin-top:20px;
-       
+/*update this*/
+
+.missing-fname{
+
+   width:75%;
+   margin-right:11px;
 }
 
+/*update this*/
+.item-type{
+    width:99%;
+}
 
-
-.missing-mailing-addItem-btnholder a.button--white{
-       width:60%;
-       margin-left:50px;
-
+/*update this*/
+.item-category{
+    width:90.6%;
+}
+/*new*/
+.missing-country{
+     width:91%;
+}
+/*update this*/
+.missing-mailing-addItem-btnholder a.button--white {
+    width: 60%;
+    margin-left: 15%;
 }
 
