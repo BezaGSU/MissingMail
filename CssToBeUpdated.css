@@ -1,0 +1,26 @@
+.missing-fname {
+    width: 77.8%;
+}
+
+
+.missing-state {
+    width: 51.7%;
+    margin-left: 0%;
+}
+.item-type{
+    width: 98%;
+
+}
+.item-category{
+
+  width: 89.6%;
+  margin-left:0%;
+}
+
+/*Delete this*/
+.item-type, .item-category {
+    width: 98%;
+    display: block;
+    margin-left: 0%;
+}
+
