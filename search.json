@@ -1,0 +1,1074 @@
+{
+"@type": "PageSlot",
+"ruleLimit": "1",
+"endeca:auditInfo": {
+"ecr:resourcePath": "/pages/DiscoverElectronics/browse",
+"ecr:assertedFacts": {
+"endeca:hasSearch": [
+"false"
+],
+"endeca:navCount": [
+"0"
+],
+"endeca:time": [
+"1517327469107"
+],
+"endeca:workspaceId": [
+""
+],
+"endeca:path": [
+"/content/Web"
+],
+"endeca:templateType": [
+"Page"
+],
+"endeca:templateId": [
+""
+],
+"endeca:workflowState": [
+"1"
+]
+},
+"ecr:ruleFireData": [
+{
+"rule.id": "/content/Web/General/Pages/Future search page",
+"rule.payload": "/content/Web/General/Pages/Future search page",
+"endeca.internal.workflow.state": "ACTIVE",
+"rule.state": "conditionsnotmet",
+"endeca.internal.resource.path": "/content/Web/General/Pages/Future search page"
+},
+{
+"rule.id": "/content/Web/General/Pages/Default Search Page",
+"rule.payload": "/content/Web/General/Pages/Default Search Page",
+"endeca.internal.workflow.state": "ACTIVE",
+"rule.state": "fired",
+"endeca.internal.resource.path": "/content/Web/General/Pages/Default Search Page"
+}
+]
+},
+"name": "Desktop Browse Page",
+"templateTypes": [
+"Page"
+],
+"templateIds": [],
+"contentPaths": [
+"/content/Web"
+],
+"redirectGroup": "",
+"endeca:siteRootPath": "/pages",
+"endeca:contentPath": "/browse",
+"endeca:siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"contents": [
+{
+"@type": "TwoColumnPage",
+"endeca:auditInfo": {
+"ecr:resourcePath": "/content/Web/General/Pages/Default Search Page"
+},
+"name": "Two-Column Page",
+"metaKeywords": "USPS Poc",
+"title": "USPS",
+"metaDescription": "Oracle Commerce reference application.",
+"redirectGroup": "",
+"headerContent": [
+{
+"@type": "SearchBox",
+"endeca:auditInfo": {
+"ecr:resourcePath": "/content/Web/General/Pages/Default Search Page",
+"ecr:innerPath": "headerContent[0]"
+},
+"name": "Search Box",
+"minAutoSuggestInputLength": 1
+}
+],
+"secondaryContent": [
+{
+"@type": "Breadcrumbs",
+"rangeFilterCrumbs": [],
+"searchCrumbs": [],
+"endeca:auditInfo": {
+"ecr:resourcePath": "/content/Web/General/Pages/Default Search Page",
+"ecr:innerPath": "secondaryContent[0]"
+},
+"name": "Breadcrumbs",
+"removeAllAction": {
+"@class": "com.endeca.infront.cartridge.model.NavigationAction",
+"contentPath": "/browse",
+"navigationState": "?format=json",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+}
+},
+"refinementCrumbs": []
+},
+{
+"@type": "ContentSlotSecondary",
+"ruleLimit": 1,
+"endeca:auditInfo": {
+"ecr:resourcePath": "/content/Web/General/Pages/Default Search Page",
+"ecr:innerPath": "secondaryContent[1]",
+"ecr:assertedFacts": {
+"endeca:hasSearch": [
+"false"
+],
+"endeca:navCount": [
+"0"
+],
+"endeca:time": [
+"1517327469107"
+],
+"endeca:workspaceId": [
+""
+],
+"endeca:workflowState": [
+"1"
+],
+"endeca:path": [
+"/content/Shared/Guided Navigation"
+],
+"endeca:templateType": [
+"SecondaryContent"
+],
+"endeca:templateId": [
+""
+]
+},
+"ecr:ruleFireData": [
+{
+"rule.id": "/content/Shared/Guided Navigation/Default Guided Navigation",
+"rule.payload": "/content/Shared/Guided Navigation/Default Guided Navigation",
+"endeca.internal.workflow.state": "ACTIVE",
+"rule.state": "fired",
+"endeca.internal.resource.path": "/content/Shared/Guided Navigation/Default Guided Navigation"
+}
+]
+},
+"name": "Navigation Slot",
+"templateTypes": [
+"SecondaryContent"
+],
+"templateIds": [],
+"contentPaths": [
+"/content/Shared/Guided Navigation"
+],
+"contents": [
+{
+"@type": "GuidedNavigation",
+"endeca:auditInfo": {
+"ecr:resourcePath": "/content/Shared/Guided Navigation/Default Guided Navigation"
+},
+"name": "Guided Navigation",
+"navigation": [
+{
+"@type": "RefinementMenu",
+"displayName": "Category",
+"endeca:auditInfo": {
+"ecr:resourcePath": "/content/Shared/Guided Navigation/Default Guided Navigation",
+"ecr:innerPath": "navigation[0]"
+},
+"name": "Category",
+"ancestors": [],
+"dimensionName": "Category",
+"multiSelect": false,
+"refinements": [
+{
+"@class": "com.endeca.infront.cartridge.model.Refinement",
+"contentPath": "/browse",
+"navigationState": "/_/N-1egwcby?format=json",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"count": 247,
+"label": "Business",
+"properties": {
+"DGraph.Spec": "Business"
+},
+"multiSelect": false
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Refinement",
+"contentPath": "/browse",
+"navigationState": "/_/N-98mmkh?format=json",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"count": 12,
+"label": "International",
+"properties": {
+"DGraph.Spec": "International"
+},
+"multiSelect": false
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Refinement",
+"contentPath": "/browse",
+"navigationState": "/_/N-us2fyu?format=json",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"count": 16,
+"label": "Mail & Ship",
+"properties": {
+"DGraph.Spec": "Mail & Ship"
+},
+"multiSelect": false
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Refinement",
+"contentPath": "/browse",
+"navigationState": "/_/N-ivckl9?format=json",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"count": 10,
+"label": "Track & Manage",
+"properties": {
+"DGraph.Spec": "Track & Manage"
+},
+"multiSelect": false
+}
+]
+},
+{
+"@type": "RefinementMenu",
+"displayName": "Media Type",
+"endeca:auditInfo": {
+"ecr:resourcePath": "/content/Shared/Guided Navigation/Default Guided Navigation",
+"ecr:innerPath": "navigation[1]"
+},
+"name": "Media Type",
+"ancestors": [],
+"dimensionName": "Media Type",
+"multiSelect": false,
+"refinements": [
+{
+"@class": "com.endeca.infront.cartridge.model.Refinement",
+"contentPath": "/browse",
+"navigationState": "/_/N-em3loj?format=json",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"count": 58,
+"label": "Document",
+"properties": {
+"DGraph.Spec": "Document"
+},
+"multiSelect": false
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Refinement",
+"contentPath": "/browse",
+"navigationState": "/_/N-icorcd?format=json",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"count": 49,
+"label": "PDF",
+"properties": {
+"DGraph.Spec": "PDF"
+},
+"multiSelect": false
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Refinement",
+"contentPath": "/browse",
+"navigationState": "/_/N-1njuqke?format=json",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"count": 131,
+"label": "Spreadsheet",
+"properties": {
+"DGraph.Spec": "Spreadsheet"
+},
+"multiSelect": false
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Refinement",
+"contentPath": "/browse",
+"navigationState": "/_/N-ctk0ft?format=json",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"count": 169,
+"label": "Web Page",
+"properties": {
+"DGraph.Spec": "Web Page"
+},
+"multiSelect": false
+}
+]
+},
+{
+"@type": "RefinementMenu",
+"displayName": "File Size",
+"endeca:auditInfo": {
+"ecr:resourcePath": "/content/Shared/Guided Navigation/Default Guided Navigation",
+"ecr:innerPath": "navigation[2]"
+},
+"name": "File Size",
+"ancestors": [],
+"dimensionName": "File Size",
+"multiSelect": false,
+"refinements": [
+{
+"@class": "com.endeca.infront.cartridge.model.Refinement",
+"contentPath": "/browse",
+"navigationState": "/_/N-mqj747?format=json",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"count": 51,
+"label": "Under 1KB",
+"properties": {
+"DGraph.Spec": "Under 1KB"
+},
+"multiSelect": false
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Refinement",
+"contentPath": "/browse",
+"navigationState": "/_/N-1upgm3n?format=json",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"count": 321,
+"label": "1KB - 1MB",
+"properties": {
+"DGraph.Spec": "1KB - 1MB"
+},
+"multiSelect": false
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Refinement",
+"contentPath": "/browse",
+"navigationState": "/_/N-1jp087d?format=json",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"count": 32,
+"label": "1MB - 10MB",
+"properties": {
+"DGraph.Spec": "1MB - 10MB"
+},
+"multiSelect": false
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Refinement",
+"contentPath": "/browse",
+"navigationState": "/_/N-10i1e1s?format=json",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"count": 4,
+"label": "More than 10MB",
+"properties": {
+"DGraph.Spec": "More than 10MB"
+},
+"multiSelect": false
+}
+]
+}
+]
+}
+]
+}
+],
+"mainContent": [
+{
+"@type": "SearchAdjustments",
+"endeca:auditInfo": {
+"ecr:resourcePath": "/content/Web/General/Pages/Default Search Page",
+"ecr:innerPath": "mainContent[0]"
+},
+"name": "Search Adjustments"
+},
+{
+"@type": "ContentSlotMain",
+"ruleLimit": 2,
+"endeca:auditInfo": {
+"ecr:resourcePath": "/content/Web/General/Pages/Default Search Page",
+"ecr:innerPath": "mainContent[1]",
+"ecr:assertedFacts": {
+"endeca:hasSearch": [
+"false"
+],
+"endeca:navCount": [
+"0"
+],
+"endeca:time": [
+"1517327469107"
+],
+"endeca:workspaceId": [
+""
+],
+"endeca:workflowState": [
+"1"
+],
+"endeca:path": [
+"/content/Web/Spotlights"
+],
+"endeca:templateType": [
+"MainContent"
+],
+"endeca:templateId": [
+""
+]
+},
+"ecr:ruleFireData": [
+{
+"rule.id": "/content/Web/Spotlights/Forms Spotlight",
+"rule.payload": "/content/Web/Spotlights/Forms Spotlight",
+"endeca.internal.workflow.state": "ACTIVE",
+"rule.state": "conditionsnotmet",
+"endeca.internal.resource.path": "/content/Web/Spotlights/Forms Spotlight"
+},
+{
+"rule.id": "/content/Web/Spotlights/Stamp Spotlight",
+"rule.payload": "/content/Web/Spotlights/Stamp Spotlight",
+"endeca.internal.workflow.state": "ACTIVE",
+"rule.state": "conditionsnotmet",
+"endeca.internal.resource.path": "/content/Web/Spotlights/Stamp Spotlight"
+},
+{
+"rule.id": "/content/Web/Spotlights/Store Spotlight",
+"rule.payload": "/content/Web/Spotlights/Store Spotlight",
+"endeca.internal.workflow.state": "ACTIVE",
+"rule.state": "conditionsnotmet",
+"endeca.internal.resource.path": "/content/Web/Spotlights/Store Spotlight"
+}
+]
+},
+"name": "Spotlights Slot",
+"templateTypes": [
+"MainContent"
+],
+"templateIds": [],
+"contentPaths": [
+"/content/Web/Spotlights"
+],
+"contents": []
+},
+{
+"@type": "ResultsList",
+"pagingActionTemplate": {
+"@class": "com.endeca.infront.cartridge.model.NavigationAction",
+"contentPath": "/browse",
+"navigationState": "?No=%7Boffset%7D&Nrpp=%7BrecordsPerPage%7D&format=json",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+}
+},
+"lastRecNum": 12,
+"records": [
+{
+"@class": "com.endeca.infront.cartridge.model.Record",
+"detailsAction": {
+"@class": "com.endeca.infront.cartridge.model.RecordAction",
+"contentPath": "/detail",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"recordState": "/_/R-WebCrawlRS%3Ahttps%3A%2F%2Fdusps.usps.com%2F?format=json"
+},
+"numRecords": 0,
+"attributes": {
+"common.id": [
+"WebCrawlRS:https://dusps.usps.com/"
+],
+"Endeca.File.Size": [
+"110999.000000"
+],
+"Title": [
+"Welcome | USPS"
+],
+"Endeca.Web.Content-Type": [
+"text/html"
+],
+"Endeca.Web.URL": [
+"https://dusps.usps.com/"
+]
+}
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Record",
+"detailsAction": {
+"@class": "com.endeca.infront.cartridge.model.RecordAction",
+"contentPath": "/detail",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"recordState": "/_/R-WebCrawlRS%3Ahttps%3A%2F%2Fdusps.usps.com%2Fzip4%2Fwelcome.htm?format=json"
+},
+"numRecords": 0,
+"attributes": {
+"common.id": [
+"WebCrawlRS:https://dusps.usps.com/zip4/welcome.htm"
+],
+"Endeca.Web.LinkedFromUrl.LinkText": [
+"Look Up a ZIP Code"
+],
+"Endeca.File.Size": [
+"403.000000"
+],
+"Title": [
+"Redirect to Lookup a ZIP Codeâ„¢"
+],
+"Endeca.Web.Content-Type": [
+"text/html"
+],
+"Endeca.Web.URL": [
+"https://dusps.usps.com/zip4/welcome.htm"
+]
+}
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Record",
+"detailsAction": {
+"@class": "com.endeca.infront.cartridge.model.RecordAction",
+"contentPath": "/detail",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"recordState": "/_/R-WebCrawlRS%3Ahttps%3A%2F%2Fdusps.usps.com%2Fwelcome.htm?format=json"
+},
+"numRecords": 0,
+"attributes": {
+"common.id": [
+"WebCrawlRS:https://dusps.usps.com/welcome.htm"
+],
+"Endeca.File.Size": [
+"110999.000000"
+],
+"Title": [
+"Welcome | USPS"
+],
+"Endeca.Web.Content-Type": [
+"text/html"
+],
+"Endeca.Web.URL": [
+"https://dusps.usps.com/welcome.htm"
+]
+}
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Record",
+"detailsAction": {
+"@class": "com.endeca.infront.cartridge.model.RecordAction",
+"contentPath": "/detail",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"recordState": "/_/R-WebCrawlRS%3Ahttps%3A%2F%2Fdusps.usps.com%2Fassets%2Ftranscripts%2Fevery-door-direct-mail-usps.txt?format=json"
+},
+"numRecords": 0,
+"attributes": {
+"common.id": [
+"WebCrawlRS:https://dusps.usps.com/assets/transcripts/every-door-direct-mail-usps.txt"
+],
+"Endeca.Web.Last-Modified": [
+"Mon, 28 Sep 2015 19:56:20 GMT"
+],
+"Endeca.Web.LinkedFromUrl.LinkText": [
+"EDDM Mail Marketing Transcript (TXT | 4KB)"
+],
+"Endeca.File.Size": [
+"1015.000000"
+],
+"Endeca.Web.Content-Type": [
+"text/plain"
+],
+"Endeca.Web.URL": [
+"https://dusps.usps.com/assets/transcripts/every-door-direct-mail-usps.txt"
+]
+}
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Record",
+"detailsAction": {
+"@class": "com.endeca.infront.cartridge.model.RecordAction",
+"contentPath": "/detail",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"recordState": "/_/R-WebCrawlRS%3Ahttps%3A%2F%2Fdusps.usps.com%2Fship%2Fonline-shipping.htm?format=json"
+},
+"numRecords": 0,
+"attributes": {
+"common.id": [
+"WebCrawlRS:https://dusps.usps.com/ship/online-shipping.htm"
+],
+"Endeca.Web.LinkedFromUrl.LinkText": [
+"Learn More"
+],
+"Endeca.File.Size": [
+"104629.000000"
+],
+"Title": [
+"Print Shipping Labels Online | USPS"
+],
+"Endeca.Web.Content-Type": [
+"text/html"
+],
+"Endeca.Web.URL": [
+"https://dusps.usps.com/ship/online-shipping.htm"
+]
+}
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Record",
+"detailsAction": {
+"@class": "com.endeca.infront.cartridge.model.RecordAction",
+"contentPath": "/detail",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"recordState": "/_/R-WebCrawlRS%3Ahttps%3A%2F%2Fdusps.usps.com%2Fassets%2Ftranscripts%2Ffile-a-claim-transcript.rtf?format=json"
+},
+"numRecords": 0,
+"attributes": {
+"common.id": [
+"WebCrawlRS:https://dusps.usps.com/assets/transcripts/file-a-claim-transcript.rtf"
+],
+"Endeca.Web.Last-Modified": [
+"Thu, 22 Sep 2016 14:23:51 GMT"
+],
+"Endeca.Web.LinkedFromUrl.LinkText": [
+"USPS How to File a Domestic Claim Video Transcript (RTF | 82KB)"
+],
+"Endeca.File.Size": [
+"88840.000000"
+],
+"Endeca.Web.Content-Type": [
+"text/rtf"
+],
+"Endeca.Web.URL": [
+"https://dusps.usps.com/assets/transcripts/file-a-claim-transcript.rtf"
+]
+}
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Record",
+"detailsAction": {
+"@class": "com.endeca.infront.cartridge.model.RecordAction",
+"contentPath": "/detail",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"recordState": "/_/R-WebCrawlRS%3Ahttps%3A%2F%2Fdusps.usps.com%2Fship%2Fmail-shipping-services.htm?format=json"
+},
+"numRecords": 0,
+"attributes": {
+"common.id": [
+"WebCrawlRS:https://dusps.usps.com/ship/mail-shipping-services.htm"
+],
+"Endeca.Web.LinkedFromUrl.LinkText": [
+"Mail & Shipping Services"
+],
+"Endeca.File.Size": [
+"111100.000000"
+],
+"Title": [
+"Mail & Shipping Services | USPS"
+],
+"Endeca.Web.Content-Type": [
+"text/html"
+],
+"Endeca.Web.URL": [
+"https://dusps.usps.com/ship/mail-shipping-services.htm"
+]
+}
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Record",
+"detailsAction": {
+"@class": "com.endeca.infront.cartridge.model.RecordAction",
+"contentPath": "/detail",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"recordState": "/_/R-WebCrawlRS%3Ahttps%3A%2F%2Fdusps.usps.com%2Fassets%2Ftranscripts%2Fcns-tutorial-transcript.txt?format=json"
+},
+"numRecords": 0,
+"attributes": {
+"common.id": [
+"WebCrawlRS:https://dusps.usps.com/assets/transcripts/cns-tutorial-transcript.txt"
+],
+"Endeca.Web.Last-Modified": [
+"Mon, 06 Nov 2017 20:19:29 GMT"
+],
+"Endeca.Web.LinkedFromUrl.LinkText": [
+"View Transcript in New Window"
+],
+"Endeca.File.Size": [
+"2393.000000"
+],
+"Endeca.Web.Content-Type": [
+"text/plain"
+],
+"Endeca.Web.URL": [
+"https://dusps.usps.com/assets/transcripts/cns-tutorial-transcript.txt"
+]
+}
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Record",
+"detailsAction": {
+"@class": "com.endeca.infront.cartridge.model.RecordAction",
+"contentPath": "/detail",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"recordState": "/_/R-WebCrawlRS%3Ahttps%3A%2F%2Fdusps.usps.com%2Fship%2Finsurance-extra-services.htm?format=json"
+},
+"numRecords": 0,
+"attributes": {
+"common.id": [
+"WebCrawlRS:https://dusps.usps.com/ship/insurance-extra-services.htm"
+],
+"Endeca.Web.LinkedFromUrl.LinkText": [
+"Insurance & Extra Services"
+],
+"Endeca.File.Size": [
+"130606.000000"
+],
+"Title": [
+"Shipping Insurance, Certified Mail &amp Extra Services | USPS"
+],
+"Endeca.Web.Content-Type": [
+"text/html"
+],
+"Endeca.Web.URL": [
+"https://dusps.usps.com/ship/insurance-extra-services.htm"
+]
+}
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Record",
+"detailsAction": {
+"@class": "com.endeca.infront.cartridge.model.RecordAction",
+"contentPath": "/detail",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"recordState": "/_/R-WebCrawlRS%3Ahttps%3A%2F%2Fdusps.usps.com%2Fbusiness%2Fprices%2Fams.csv?format=json"
+},
+"numRecords": 0,
+"attributes": {
+"common.id": [
+"WebCrawlRS:https://dusps.usps.com/business/prices/ams.csv"
+],
+"Endeca.Web.Last-Modified": [
+"Tue, 09 Jan 2018 16:46:36 GMT"
+],
+"Endeca.Web.LinkedFromUrl.LinkText": [
+"CSV file for Address Management System â€“ Mailing Services"
+],
+"Endeca.File.Size": [
+"5167.000000"
+],
+"Endeca.Web.Content-Type": [
+"text/csv"
+],
+"Endeca.Web.URL": [
+"https://dusps.usps.com/business/prices/ams.csv"
+]
+}
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Record",
+"detailsAction": {
+"@class": "com.endeca.infront.cartridge.model.RecordAction",
+"contentPath": "/detail",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"recordState": "/_/R-WebCrawlRS%3Ahttps%3A%2F%2Fdusps.usps.com%2Fterms-conditions%2Fpfs-residential-online.htm?format=json"
+},
+"numRecords": 0,
+"attributes": {
+"common.id": [
+"WebCrawlRS:https://dusps.usps.com/terms-conditions/pfs-residential-online.htm"
+],
+"Endeca.Web.LinkedFromUrl.LinkText": [
+"View PFS-Residential Online Terms & Conditions"
+],
+"Endeca.File.Size": [
+"22393.000000"
+],
+"Endeca.Web.Content-Type": [
+"text/html"
+],
+"Endeca.Web.URL": [
+"https://dusps.usps.com/terms-conditions/pfs-residential-online.htm"
+]
+}
+},
+{
+"@class": "com.endeca.infront.cartridge.model.Record",
+"detailsAction": {
+"@class": "com.endeca.infront.cartridge.model.RecordAction",
+"contentPath": "/detail",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"recordState": "/_/R-WebCrawlRS%3Ahttps%3A%2F%2Fdusps.usps.com%2Fpostalone%2Fpass.htm?format=json"
+},
+"numRecords": 0,
+"attributes": {
+"common.id": [
+"WebCrawlRS:https://dusps.usps.com/postalone/pass.htm"
+],
+"Endeca.Web.LinkedFromUrl.LinkText": [
+"PASS"
+],
+"Endeca.File.Size": [
+"47175.000000"
+],
+"Title": [
+"USPS - PASS"
+],
+"Endeca.Web.Content-Type": [
+"text/html"
+],
+"Endeca.Web.URL": [
+"https://dusps.usps.com/postalone/pass.htm"
+]
+}
+}
+],
+"totalNumRecs": 408,
+"sortOptions": [
+{
+"@class": "com.endeca.infront.cartridge.model.SortOptionLabel",
+"contentPath": "/browse",
+"navigationState": "?format=json",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"label": "Relevance",
+"selected": true
+},
+{
+"@class": "com.endeca.infront.cartridge.model.SortOptionLabel",
+"contentPath": "/browse",
+"navigationState": "?Ns=Endeca.Web.Last-Modified%7C0&format=json",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"label": "Last Modified (Ascending)",
+"selected": false
+},
+{
+"@class": "com.endeca.infront.cartridge.model.SortOptionLabel",
+"contentPath": "/browse",
+"navigationState": "?Ns=Endeca.Web.Last-Modified%7C1&format=json",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"label": "Last Modified (Descending)",
+"selected": false
+}
+],
+"endeca:auditInfo": {
+"ecr:resourcePath": "/content/Web/General/Pages/Default Search Page",
+"ecr:innerPath": "mainContent[2]"
+},
+"name": "Results List",
+"firstRecNum": 1,
+"precomputedSorts": [],
+"recsPerPage": 12
+}
+]
+}
+],
+"previewModuleUrl": "http://localhost:9443/ifcr",
+"endeca:assemblerRequestInformation": {
+"@type": "AssemblerRequestEvent",
+"endeca:contentPath": "/browse",
+"endeca:numRecords": 408,
+"endeca:siteRootPath": "/pages",
+"endeca:recordNames": [
+"Welcome | USPS",
+"Redirect to Lookup a ZIP Codeâ„¢",
+"Print Shipping Labels Online | USPS",
+"Mail & Shipping Services | USPS",
+"Shipping Insurance, Certified Mail &amp Extra Services | USPS",
+"USPS - PASS"
+],
+"endeca:assemblyStartTimestamp": 1517327469106,
+"endeca:assemblyFinishTimestamp": 1517327469115,
+"endeca:eneTime": 4,
+"endeca:sortKey": [
+"product.analytics.total_sales|Ascending"
+],
+"endeca:relRankStrategy": "nterms,maxfield,exact,static(product.analytics.conversion_rate,descending)",
+"endeca:requestType": "T",
+"endeca:requestId": "151732746910605685",
+"endeca:sessionId": "24BB876AA255C2176244459A1724528E"
+},
+"canonicalLink": {
+"@class": "com.endeca.infront.cartridge.model.NavigationAction",
+"contentPath": "/browse",
+"navigationState": "",
+"siteRootPath": "/pages",
+"siteState": {
+"@class": "com.endeca.infront.site.model.SiteState",
+"contentPath": "/browse",
+"siteDisplayName": "Discover Electronics",
+"siteId": "/DiscoverElectronics",
+"properties": {}
+},
+"label": ""
+}
+}
